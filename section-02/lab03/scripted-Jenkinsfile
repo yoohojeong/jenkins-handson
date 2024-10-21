@@ -19,7 +19,7 @@ podTemplate(
 			])
 			
 			stage('Get a Maven project') {
-				git url: 'https://github.com/yoonjk/jenkins-handson.git', branch: 'dev'
+				git url: 'https://github.com/yoohojeong/jenkins-handson.git', branch: 'dev'
 			}
 	
 			stage('Read Properties') {
